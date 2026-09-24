@@ -1,12 +1,12 @@
+
 {
-  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/index.js"
-    "start": "node src/index.js"
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,6 @@
     "nodemailer": "^9.0.5",
     "slugify": "^1.6.9",
     "trim": "^1.0.1",
-    "validator": "^13.15.35"
+    "validator": "^13.15.0"
   }
 }
